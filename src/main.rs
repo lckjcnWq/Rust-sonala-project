@@ -1,13 +1,9 @@
+mod variables1;
+
 fn main() {
-    println!("Hello, world!");
-
-    let a = 10;
-    let b: i32 = 20;
-    let mut c = 30;
-    let d = 30_i32;
-    let e = add(1, 2);
-    println!("{}", e);
-
+    // 调用 variables1 模块中的 main1 函数
+    variables1::main1();
+    
 }
 
 fn add(a: i32, b: i32) -> i32 {
